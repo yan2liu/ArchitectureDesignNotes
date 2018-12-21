@@ -1,5 +1,9 @@
 # Architecture Design & Implementation Notes & Cheatsheet
 
-## [Build a Web Application to manage Machine Learning Models](./blob/master/WebAppForManageModels.md)
-## [Cheatsheet for docker](./blob/master/docker-cheatsheet.md)
-## [Build a Near-Realtime Multi-device Synchronize System](./blob/master/RealTimeSynchronizeSystem.md)
+## Designed System/Application summary
+### [Build a Web Application to manage Machine Learning Models](./WebAppForManageModels.md)
+### [Build a Near-Realtime Multi-device Synchronize System](./RealTimeSynchronizeSystem.md)
+
+
+## Cheatsheets
+### [Cheatsheet for docker](./docker-cheatsheet.md)
