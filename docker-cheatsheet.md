@@ -39,3 +39,7 @@
 ## Resize disk space for docker vm
     
     $ docker-machine create --driver virtualbox --virtualbox-disk-size "40000" default
+    
+# Query
+## find docker image with repository name matching pattern: */*/AAA*'
+   $ docker images --filter=reference='*/*/AAA*'
