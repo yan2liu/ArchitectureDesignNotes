@@ -3,8 +3,8 @@
 # cleanup
 ## Prune the system: all stopped containers, unused volumes, network, dangling images
 
-//prune the system https://docs.docker.com/engine/reference/commandline/system_prune/:
-	$ docker system prune
+    //prune the system https://docs.docker.com/engine/reference/commandline/system_prune/   
+    $ docker system prune
   
 ## delete volumes
 
@@ -15,8 +15,8 @@
     
 ## delete networks
 
-    prune the networks https://docs.docker.com/engine/reference/commandline/network_prune/:
-	$ docker network prune
+    // prune the networks https://docs.docker.com/engine/reference/commandline/network_prune/
+    $ docker network prune
     
 ## remove docker images
     
