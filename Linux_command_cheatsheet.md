@@ -19,7 +19,8 @@
   ```
 - Parse csv file with ',' (or ' ') as delimiter, choose  the '2' column to output file(second_col.csv). 
   ```
-  $ cut -d , -f 2 comma.csv > second_col.csv
+  $ cut -d, -f2 comma.csv > second_col.csv
+   $ cut -d' ' -f2 comma.csv > second_col.csv
   ```
 - Merge two files into one file with  each line as first file concatenate to second file & seperate by ','
   ```
@@ -40,6 +41,7 @@
 - Merge two files into one, one after another
   ```
   $ cat end.csv >> begin.csv
+   $ cat file1.csv file2.csv > merge.csv
   ```
 - Linux & Window dos forat change
   ```
