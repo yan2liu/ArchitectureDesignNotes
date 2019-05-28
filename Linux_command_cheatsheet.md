@@ -36,7 +36,7 @@
   ```
 - Take first 858 lines to new file:
   ```
-  $ head -858 total.csv >> first_858.csv
+  $ head -858 total.csv > first_858.csv
   ```
 - Merge two files into one, one after another
   ```
