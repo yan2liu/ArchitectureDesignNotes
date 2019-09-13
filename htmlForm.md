@@ -33,7 +33,7 @@ HTML form element creates FormData more cleanly than manually create it by JavaS
 
 If we want to show Image after uploading it. Add  onchange function (previewFile) for file input. In it, set img src to FileReader's result after loading the image file.
 
-```
+'''
    function previewFile(){
        var preview = document.querySelector('#previewImg'); //selects the query named img
        var file    = document.querySelector('#fileUploadInput').files[0]; //sames as here
@@ -49,6 +49,6 @@ If we want to show Image after uploading it. Add  onchange function (previewFile
            preview.src = "";
        }
   }
-```
   
+'''
  To play around this code, copy the HTML & JavaScript code to [CodePen](https://codepen.io/pen).
