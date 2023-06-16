@@ -48,3 +48,9 @@
   $ dos2unix window.txt
   $ unix2dos linux.txt
   ```
+# [Linux Performance Observation Tools](./LinuxPerfObsTools.png)
+- 🔹‘vmstat’ - reports information about processes, memory, paging, block IO, traps, and CPU activity.
+- 🔹‘iostat’ - reports CPU and input/output statistics of the system.
+- 🔹‘netstat’ - displays statistical data related to IP, TCP, UDP, and ICMP protocols.
+- 🔹‘lsof’ - lists open files of the current system.
+- 🔹‘pidstat’ - monitors the utilization of system resources by all or specified processes, including CPU, memory, device IO, task switching, threads, etc.
